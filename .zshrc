@@ -552,4 +552,10 @@ zplug load
 
 #ZLE_RPROMPT_INDENT=0
 
+
+# NVM Install
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 # vim: ft=zsh
